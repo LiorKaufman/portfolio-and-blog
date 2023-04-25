@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Lior Kaufman</title>
+    <link>https://hugo-profile.netlify.app/tags/</link>
+    <description>Recent content in Tags on Lior Kaufman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 07 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-profile.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Modeling</title>
+      <link>https://hugo-profile.netlify.app/tags/data-modeling/</link>
+      <pubDate>Fri, 07 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-profile.netlify.app/tags/data-modeling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DBT</title>
+      <link>https://hugo-profile.netlify.app/tags/dbt/</link>
+      <pubDate>Fri, 07 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-profile.netlify.app/tags/dbt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud computing</title>
+      <link>https://hugo-profile.netlify.app/tags/cloud-computing/</link>
+      <pubDate>Sun, 10 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-profile.netlify.app/tags/cloud-computing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://hugo-profile.netlify.app/tags/docker/</link>
+      <pubDate>Sun, 10 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-profile.netlify.app/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://hugo-profile.netlify.app/tags/python/</link>
+      <pubDate>Sun, 10 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-profile.netlify.app/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ETL/ELT</title>
+      <link>https://hugo-profile.netlify.app/tags/etl/elt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-profile.netlify.app/tags/etl/elt/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -28,6 +28,15 @@
                 {{ .Site.Params.singlePages.readTime.content | default "min read" }}
               </span>
               {{ end }}
+
+              {{ if or (.Params.github_link)  }}
+              <small>|</small>
+                  <a target="_blank" href="{{.Params.github_link}}">
+                    <i class="fab fa-medium"></i>
+                    </a>
+              
+              {{ end }}
+              <!-- {{ .Params.github_link}} -->
             </div>
           </div>
           {{ if .Params.image }}

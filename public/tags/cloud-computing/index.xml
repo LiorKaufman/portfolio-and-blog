@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloud computing on Lior Kaufman</title>
+    <link>https://hugo-profile.netlify.app/tags/cloud-computing/</link>
+    <description>Recent content in Cloud computing on Lior Kaufman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-profile.netlify.app/tags/cloud-computing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cloud Run Jobs</title>
+      <link>https://hugo-profile.netlify.app/blogs/cloudrun-jobs/</link>
+      <pubDate>Sun, 10 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-profile.netlify.app/blogs/cloudrun-jobs/</guid>
+      <description>Checking Out Google Cloud Run Jobs With a Practical Example Deploy a Dockerized Python script to Google Cloud Platform using Cloud Run Jobs. In this article we will write a simple python data extraction script, deploy it to Google Cloud Run Jobs container and discuss the status of cloud run jobs — google newest container as a service offering.
+Prerequisites to follow this guide:
+Local installation of Docker Google Cloud CLI tool Google Cloud account with billing enabled Official overview of Cloud Run Jobs from Google Although Cloud Run services are a good fit for containers that run indefinitely listening for HTTP requests, Cloud Run jobs may be a better fit for containers that run to completion and don’t serve requests.</description>
+    </item>
+    
+  </channel>
+</rss>

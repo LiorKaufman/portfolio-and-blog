@@ -1,6 +1,6 @@
 baseURL: "https://hugo-profile.netlify.app"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "Lior Kaufman"
 theme: hugo-profile
 
 outputs:
@@ -29,11 +29,11 @@ Menus:
       title: Blog posts
       url: /blogs
       weight: 1
-    - identifier: gallery
-      name: Gallery
-      title: Blog posts
-      url: /gallery
-      weight: 2
+    # - identifier: gallery
+    #   name: Gallery
+    #   title: Blog posts
+    #   url: /gallery
+    #   weight: 2
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -53,10 +53,10 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Hugo Profile"
+  title: "Lior Kaufman"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  favicon: "/favicon-32x32.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -73,7 +73,7 @@ params:
 
   theme:
     # disableThemeToggle: true
-    # defaultTheme: "light" # dark
+    defaultTheme: "light" # dark
 
   font:
     fontSize: 1rem # default: 1rem
@@ -104,7 +104,7 @@ params:
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
     brandName: "Lior Kaufman" # Brand name for the brand | default is the title variable
-    disableSearch: false
+    disableSearch: true
     # searchPlaceholder: "Search"
     menus:
       disableAbout: false
@@ -121,9 +121,9 @@ params:
     title: "Lior Kaufman."
     subtitle: "I love anything related to data!"
     content: "I'm a data engineer who loves working with the latest modern data stack technologies. My goal is to create data products that are not only valuable and scalable, but also well-documented and tested, all while keeping things friendly and approachable."
-    image: /images/hero.svg
+    image: /images/heroIcon.jpg
     bottomImage:
-      enable: true
+      enable: false
     # roundImage: true # Make hero image circular | default false
     button:
       enable: true
@@ -148,7 +148,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: "/images/man.png"
     content: |-
       I'm a self-taught data engineer who's enthusiastic about problem-solving and all things data-related. I like to think of myself as a versatile learner with a strong focus on data. I enjoy discovering new databases and delving into their inner workings. What truly piques my interest is understanding the architecture of databases and how they can be employed to tackle various challenges.
 
@@ -268,7 +268,7 @@ params:
     items:
       - title: CatDog
         content: CatDog is a hobby project of mine, it's a Command Line Interface (CLI) tool, written in Rust, designed as a reimplemented version of the classic cat CLI utility. This versatile tool enables users to view, concatenate, and create text files, streamlining file manipulation and content display across Unix-based systems.
-        image: /images/projects/profile.png
+        image: /images/catdog.jpg
         featured:
           name: Rust Crate
           link: https://crates.io/crates/catdog
@@ -281,7 +281,7 @@ params:
 
       - title: Simple Data Pipeline in Rust
         content: A simple Rust script that collects weather data based on the user input and saves it as a CSV or a JSON file. This is a learning project for me to deep dive into Rust Serde crate and how to use it.
-        image: /images/projects/converter.jpg
+        image: /images/datapipeline.webp
         badges:
           - "Rust"
           - "Data Pipeline"
@@ -295,17 +295,26 @@ params:
           DevConnector Social network for developers
           This is a MERN stack application I built using the tools I learned in "MERN Stack Front To Back" course on Udemy. It is a small social network app that includes authentication, profiles, forum posts, comments, likes and more.
           DevConnector uses a Express.js Backend with mongoDBAtlas cloud services as its database. For the front end I used Reac.js, bootstrap and some custom CSS classes. Redux is my state managment tool and I used jsonWebToken for user authentication
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+        image: /images/devConnector.png
         badges:
-          - "Hugo"
-          - "Bootstrap"
+          - "React"
+          - "Express"
+          - "MongoDB"
+          - "Node.js"
           - "Javascript"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/LiorKaufman/devconnector
+      - title: MovieRecommender Script
+        content: |-
+          A simple Python ML script I wrote that finds the most similar movies based on their plot summary. This is a learning project to explore ML models and their different use cases using the populat IMDB movies dataset.
+        image: /images/imdb1_0.png
+        badges:
+          - "Python"
+          - "ML"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/LiorKaufman/movie-recommender
 
   #Contact
   contact:
@@ -326,13 +335,11 @@ params:
       count: 3
       title: Recent Posts
       enable: true
-      disableFeaturedImage: false
+      disableFeaturedImage: true
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/LiorKaufman
+      linkedin: https://www.linkedin.com/in/lior-kaufman/
+      medium: https://medium.com/@lior_30980
 
   # List pages like blogs and posts
   listPages:

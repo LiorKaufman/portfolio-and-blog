@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Modeling on Lior Kaufman</title>
+    <link>https://hugo-profile.netlify.app/tags/data-modeling/</link>
+    <description>Recent content in Data Modeling on Lior Kaufman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 07 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-profile.netlify.app/tags/data-modeling/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DBT Source automation</title>
+      <link>https://hugo-profile.netlify.app/blogs/dbt-source-onboarding/</link>
+      <pubDate>Fri, 07 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-profile.netlify.app/blogs/dbt-source-onboarding/</guid>
+      <description>Streamline Your Data Onboarding with DBT Codegen package Introduction
+In today’s data-driven world, dbt (data build tool) has become the go-to open-source transformation tool for turning raw data into actionable insights. In this post, we’ll explore dbt’s organized layer approach (staging, intermediate, and marts/final tables) and how automation can make onboarding new sources more efficient, using a real-life example from my own experience.
+DBT: Data Transformation Done Right
+DBT allows data engineers and analysts to perform complex data manipulations using a simple, maintainable, and version-controlled codebase.</description>
+    </item>
+    
+  </channel>
+</rss>
